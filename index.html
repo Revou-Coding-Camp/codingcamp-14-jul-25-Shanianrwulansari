@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+  <header>
+    <nav>
+      <h1>🌐 Website</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <h2 id="greeting">Hi, Welcome To Website</h2>
+    <p class="sub">a super modern solution company</p>
+  </section>
+
+  <section id="profile" class="profile">
+    <h2>About The Company</h2>
+    <p>Kami adalah perusahaan digital yang menyediakan solusi teknologi modern untuk berbagai kebutuhan bisnis Anda.</p>
+    <h3>Vision and Mission</h3>
+    <p><strong>Vision:</strong> Menjadi pemimpin inovasi teknologi digital.</p>
+    <p><strong>Mission:</strong> Memberikan layanan terbaik dan inovatif dengan teknologi terkini.</p>
+    <div class="headquarters">
+      <h3>Our Headquarter</h3>
+      <div class="cities">
+        <div class="city">Jakarta</div>
+        <div class="city">Bandung</div>
+        <div class="city">Surabaya</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="message" class="contact-form">
+    <h2>Message Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label>Gender:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="Laki-laki" required /> Laki-laki</label>
+        <label><input type="radio" name="gender" value="Perempuan" required /> Perempuan</label>
+      </div>
+
+      <label for="messageInput">Message:</label>
+      <textarea id="messageInput" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="formResult"></div>
+  </section>
+
+  <footer>
+    <p>Created by Shania</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
